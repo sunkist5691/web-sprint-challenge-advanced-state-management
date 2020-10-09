@@ -5,7 +5,6 @@ export const postSmurfInfo = (info) => dispatch => {
    axios
       .post('http://localhost:3333/smurfs', info)
       .then(res => {
-         console.log('POST: ', res.data)
          dispatch({ type: 'FETCH_JOBS_SUCCESS', payload: res.data})
       })
 }
@@ -15,7 +14,7 @@ export const getSmurfInfo = () => dispatch => {
    axios
       .get('http://localhost:3333/smurfs')
       .then( res => {
-         console.log('GET: ', res.data)
+         console.log(res.data)
          dispatch({ type: 'FETCH_JOBS_SUCCESS', payload: res.data })
       })
 }

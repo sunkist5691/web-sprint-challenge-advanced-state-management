@@ -16,7 +16,15 @@
    margin-left: 4%;
 }
 
-.smurf___form form > button {
-   padding: 1% 2%;
-   margin-top: 2%;
+.smurf___form form .wrap > button {
+   padding: 5% 10%;
+   margin: 10% 0;
+}
+
+.wrap {
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   align-items: center;
+   width: 40%;
 }

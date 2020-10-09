@@ -7,7 +7,7 @@ import "./App.css";
 class App extends Component {
 
   render() {
-    console.log(this.props)
+    console.log('APP: ', this.props)
     return (
       <div className="App">
         <h1>Smurf Village</h1>
