@@ -1,0 +1,22 @@
+.smurf___form > form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+
+.smurf___form label {
+   display: flex;
+   justify-content: flex-end;
+   width: 15%;
+   margin-top: 1%;
+}
+
+.smurf___form label input {
+   margin-left: 4%;
+}
+
+.smurf___form form > button {
+   padding: 1% 2%;
+   margin-top: 2%;
+}
